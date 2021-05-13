@@ -25,6 +25,10 @@ const GlobalStyles = createGlobalStyle`
       text-align: center;
   }
 
+  .beer__link {
+    min-width: 46px;
+  }
+
 `;
 
 export default GlobalStyles;

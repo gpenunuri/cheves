@@ -8,20 +8,53 @@ export const chevesData = {
       stock: 4,
       content: [
         {
-          name: 'Xakutella',
+          name: '1 Xakutella',
           slug: 'xakutella',
         },
         {
-          name: 'Banana bread',
+          name: '1 Banana bread',
           slug: 'banana-bread',
         },
         {
-          name: 'Cafe de Olla',
+          name: '1 Cafe de Olla',
           slug: 'cafe-de-olla',
         },
         {
-          name: 'Chocolate Mexicano',
+          name: '1 Chocolate Mexicano',
           slug: 'chocolate-mexicano',
+        },
+      ],
+    },
+    {
+      name: '5-Pack Rrey + vaso',
+      slug: 'pack-rey-vaso',
+      price: 265,
+      image: 'images/rrey-pack.png',
+      stock: 5,
+      content: [
+        {
+          name: '1 London Ale',
+          slug: 'london-ale',
+        },
+        {
+          name: '1 Mty Stout',
+          slug: 'mty-stout',
+        },
+        {
+          name: '1 Kolsch',
+          slug: 'kolsch',
+        },
+        {
+          name: '1 Mexican IPA',
+          slug: 'mexican-ipa',
+        },
+        {
+          name: '1 Belgian White',
+          slug: 'belgian-white',
+        },
+        {
+          name: '1 Vaso conmemorativo Rrey',
+          slug: 'vaso-rrey',
         },
       ],
     },

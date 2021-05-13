@@ -75,6 +75,9 @@ const PackItem = ({ pack }) => {
         <p className="beer__content">
           Contenido: <span>{pack.content.map((el) => el.name).join(', ')}</span>
         </p>
+        <p className="beer__content">
+          Existencias: <span>{pack.stock}</span>
+        </p>
         <Link to={`/packs/${pack.slug}`} className="beer__link beer__link--2">
           Ver más
         </Link>
