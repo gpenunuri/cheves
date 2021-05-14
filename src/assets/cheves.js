@@ -3,8 +3,8 @@ export const chevesData = {
     {
       name: '4-Pack Variado',
       slug: '4-pack-variado',
-      price: 265,
-      image: 'images/banana.webp',
+      price: 260,
+      image: 'images/4-pack.png',
       stock: 4,
       content: [
         {
@@ -28,7 +28,7 @@ export const chevesData = {
     {
       name: '5-Pack Rrey + vaso',
       slug: 'pack-rey-vaso',
-      price: 265,
+      price: 260,
       image: 'images/rrey-pack.png',
       stock: 5,
       content: [
@@ -66,13 +66,13 @@ export const chevesData = {
       description:
         'Xakúa Xakutella es una cerveza estilo stout de perfil maltoso con notas a chocolate y avellanas, de amargor bajo.',
       brewery: 'Xakúa',
-      image: 'images/xakutella.webp',
-      ingredients: 'Cacao, avellanas, maltas, lúpulo, levadura',
+      image: 'images/xakutella.png',
+      ingredients: 'Cacao, maltas, lúpulo, levadura',
       style: 'Stout',
       alcohol: 6,
       content: 473,
       price: 70,
-      stock: 0,
+      stock: 4,
     },
     {
       name: 'Banana Bread',
@@ -80,13 +80,13 @@ export const chevesData = {
       description:
         'De sabor a plátano maduro, aroma a plátano y a miel, acentuado con un toque de amargura.',
       brewery: 'Eagle Brewery',
-      image: 'images/banana.webp',
+      image: 'images/banana-bread.png',
       ingredients: 'Agua, maltas, lúpulo, levadura',
-      style: 'English Ale',
+      style: 'Lager blend',
       alcohol: 5.2,
       content: 500,
       price: 75,
-      stock: 6,
+      stock: 4,
     },
     {
       name: 'Cafe de Olla',
@@ -94,13 +94,13 @@ export const chevesData = {
       description:
         'Xakúa Café de Olla es una cerveza estilo Stout, de color negro profundo, con notas intensas a café y canela que te hará recordad momentos maravillosos entorno a una buena olla de café.',
       brewery: 'Xakúa',
-      image: 'images/xakutella.webp',
-      ingredients: 'Cacao, avellanas, maltas, lúpulo, levadura',
+      image: 'images/cafe-olla.png',
+      ingredients: 'Cebada, Agua, Lúpulo, Levadura, Canela, Café',
       style: 'Stout',
       alcohol: 6,
       content: 473,
       price: 70,
-      stock: 6,
+      stock: 4,
     },
     {
       name: 'Chocolate Mexicano',
@@ -108,13 +108,13 @@ export const chevesData = {
       description:
         'Xakúa Chocolate Mexicano es una cerveza estilo Stout, elaborada con adiciones de cacao y canela, cerveza de color negro que presenta notas a malta tostada cacao y canela.',
       brewery: 'Xakúa',
-      image: 'images/banana.webp',
-      ingredients: 'Cacao, avellanas, maltas, lúpulo, levadura',
+      image: 'images/chocolate-mexicano.png',
+      ingredients: 'Malta, Agua, Lúpulo, Levadura, Canela, Cacao',
       style: 'Stout',
       alcohol: 6,
       content: 473,
       price: 70,
-      stock: 6,
+      stock: 4,
     },
   ],
 };
