@@ -5,7 +5,7 @@ export const chevesData = {
       slug: '4-pack-variado',
       price: 260,
       image: 'images/4-pack.png',
-      stock: 4,
+      stock: 1,
       content: [
         {
           name: '1 Xakutella',
@@ -30,7 +30,7 @@ export const chevesData = {
       slug: 'pack-rey-vaso',
       price: 260,
       image: 'images/rrey-pack.png',
-      stock: 5,
+      stock: 0,
       content: [
         {
           name: '1 London Ale',
@@ -61,6 +61,62 @@ export const chevesData = {
   ],
   cheves: [
     {
+      name: 'Enjoy By 4:20',
+      slug: 'enjoy-by-420',
+      description:
+        'A lo largo de los años se han hecho muchas versiones de Enjoy By, pero es hasta hoy que salio de modo Hazy. Como una celebración para el lúpulo, esta deliciosa DIPA turbia nos sorprende con notas a mango, melón y guayaba, con un regusto ligeramente astringente y jugoso. Seguro...',
+      brewery: 'Stone Brewing Co.',
+      image: 'images/enjoy-by.png',
+      ingredients: 'maltas, lúpulo, levadura, agua',
+      style: 'Blazy Hazy IPA',
+      alcohol: 9,
+      content: 355,
+      price: 100,
+      stock: 1,
+    },
+    {
+      name: 'Huracan',
+      slug: 'huracan',
+      description:
+        'Con su carga impresionante de lúpulo, esta cerveza nos expresa notas muy marcadas a mango, toronja, nísperos, chabacano y piña. El final explosivo en el regusto con caramelos y ligero amargor, harán de Huracán, una de tus cervezas favoritas.',
+      brewery: 'Hercules',
+      image: 'images/huracan.png',
+      ingredients: 'Agua, maltas, lúpulo, levadura',
+      style: 'Stout',
+      alcohol: 8.6,
+      content: 500,
+      price: 125,
+      stock: 1,
+    },
+    {
+      name: 'Guayaba Express',
+      slug: 'guayaba-express',
+      description:
+        'Guayaba Express nace entre amigos, uno de nuestros estilos preferidos. Milkshake IPA con un chingo de guayaba y lúpulo. Una cerveza con un fuerte aroma frutal-tropical, así como ligeras notas cítricas y herbales, un amargor de lúpulo balanceado, con presencia de guayaba y notas dulces. La sedosidad en cuerpo y regusto, es resultado de la lactosa usada para su cocción.',
+      brewery: 'Fauna & Nu Cali',
+      image: 'images/guayaba-express.png',
+      ingredients: 'Cacao, maltas, lúpulo, levadura',
+      style: 'Milkshake IPA',
+      alcohol: 6.5,
+      content: 473,
+      price: 110,
+      stock: 1,
+    },
+    {
+      name: 'Mazorca Sonica',
+      slug: 'mazorca-sonica',
+      description:
+        'Una cerveza artesanal potente de aroma y sabor, las notas tostadas y a cacao resaltan. Con un cuerpo ligero y muy bebible, es una cerveza refrescante y llena de carácter que mezcla bien las tonalidades del maíz para que no se pierda en un estilo ya de por sí complejo. ',
+      brewery: 'Hercules',
+      image: 'images/mazorca-sonica.png',
+      ingredients: 'Agua, maiz, maltas, lúpulo, levadura',
+      style: 'Porter',
+      alcohol: 4.5,
+      content: 473,
+      price: 70,
+      stock: 0,
+    },
+    {
       name: 'Xakutella',
       slug: 'xakutella',
       description:
@@ -72,7 +128,7 @@ export const chevesData = {
       alcohol: 6,
       content: 473,
       price: 70,
-      stock: 4,
+      stock: 0,
     },
     {
       name: 'Banana Bread',
@@ -86,7 +142,7 @@ export const chevesData = {
       alcohol: 5.2,
       content: 500,
       price: 75,
-      stock: 4,
+      stock: 0,
     },
     {
       name: 'Cafe de Olla',
@@ -100,7 +156,7 @@ export const chevesData = {
       alcohol: 6,
       content: 473,
       price: 70,
-      stock: 4,
+      stock: 0,
     },
     {
       name: 'Chocolate Mexicano',
@@ -114,7 +170,7 @@ export const chevesData = {
       alcohol: 6,
       content: 473,
       price: 70,
-      stock: 4,
+      stock: 0,
     },
   ],
 };
