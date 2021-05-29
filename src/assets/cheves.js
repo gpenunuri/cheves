@@ -1,6 +1,44 @@
 export const chevesData = {
   packs: [
     {
+      name: 'Pack Erdinger + vaso',
+      slug: 'pack-erdinger',
+      price: 200,
+      image: 'images/erdinger-vaso.png',
+      stock: 3,
+      content: [
+        {
+          name: '2 Erdinger 500ml',
+          slug: 'erdinger',
+        },
+        {
+          name: '1 Vaso edición especial',
+          slug: 'vaso-erdinger',
+        },
+      ],
+    },
+    {
+      name: '3-Pack Patagonia',
+      slug: 'pack-Patagonia',
+      price: 200,
+      image: 'images/pack-patagonia.png',
+      stock: 1,
+      content: [
+        {
+          name: '1 Bohemian Pilsner 730ml',
+          slug: 'bohemian-pilsner',
+        },
+        {
+          name: '1 Kune 730ml',
+          slug: 'kune',
+        },
+        {
+          name: '1 Amber Lager 730ml',
+          slug: 'amber-lager',
+        },
+      ],
+    },
+    {
       name: '4-Pack Variado',
       slug: '4-pack-variado',
       price: 260,
